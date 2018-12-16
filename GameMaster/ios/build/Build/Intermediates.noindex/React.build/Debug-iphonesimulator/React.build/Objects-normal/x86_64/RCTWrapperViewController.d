@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Views/RCTWrapperViewController.m \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Views/RCTWrapperViewController.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/moe/Desktop/react-game/GameMaster/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/moe/Desktop/react-game/GameMaster/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/moe/Desktop/react-game/GameMaster/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h
