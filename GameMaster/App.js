@@ -1,7 +1,4 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
  * @format
  * @flow
  */
@@ -9,12 +6,9 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Image} from 'react-native';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import Elias from './assets/Elias.jpg'
+
+
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -22,12 +16,22 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
      
-        <Text style={styles.welcome}>Welcome to Moe's App!</Text>
+        <Text style={styles.title}>Heroes vs Humans</Text>
 
+
+        <View style={{flexDirection:"row"}}>
         <Image
-          style={{width: 150, height: 150}}
+          style={[styles.images,  styles.image1]}
           source={{uri:  'https://pbs.twimg.com/profile_images/661418493552660481/5Vqxjfbn_400x400.jpg'}}
         />
+      
+        <Text>VS</Text>
+ 
+        <Image
+          style={[styles.images, styles.image2]}
+          source={Elias}
+        />
+        </View>
 
 
        </View>
@@ -42,14 +46,27 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
+  title: {
+    fontSize: 40,
     textAlign: 'center',
-    margin: 10,
+    margin: 20,
+    marginBottom:50
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  images: {
+  borderWidth:2,
+  borderRadius:50,
+  width: 150, 
+  height: 150,
+  justifyContent: 'space-around',
+
   },
+  image1: {
+      borderColor:'green',
+ justifyContent: 'flex-start',
+ 
+  },
+    image2: {
+      borderColor:'#00f',
+      justifyContent: 'flex-end'
+  }
 });
